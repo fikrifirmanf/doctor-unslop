@@ -1,0 +1,3 @@
+node_modules/
+*.tgz
+.doctor-unslop/telemetry.jsonl

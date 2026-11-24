@@ -1,0 +1,39 @@
+{
+  "name": "doctor-unslop",
+  "version": "0.1.0",
+  "description": "Quality lab for the *-unslop-mcp servers: clean-vs-slop fixture benchmarks, violation-contract checks and agent retry-loop analysis.",
+  "type": "module",
+  "bin": {
+    "doctor-unslop": "src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "mcp",
+    "anti-slop",
+    "benchmark",
+    "lint",
+    "quality"
+  ],
+  "license": "MIT",
+  "author": "Fikri Firman Fadilah",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fikrifirmanf/doctor-unslop.git"
+  },
+  "homepage": "https://github.com/fikrifirmanf/doctor-unslop#readme",
+  "bugs": {
+    "url": "https://github.com/fikrifirmanf/doctor-unslop/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  }
+}
